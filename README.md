@@ -7,7 +7,8 @@ Production ready library for handling Microfrontends, written in React.
 ```
 $ touch AnyExternalApp.js
 ```
-### Then, wrap it with `withAppLoader` HOC:
+
+### Then, wrap it with `withAppLoader` [HOC](https://reactjs.org/docs/higher-order-components.html):
 ```jsx
 // @flow
 
@@ -21,6 +22,7 @@ const AppLoader = withAppLoader({ elementId, appUrl });
 export default AppLoader;
 
 ```
+
 ### Import it on your React app:
 ```jsx
 import React, { Component } from 'react';
@@ -41,6 +43,13 @@ class App extends Component {
 
 export default App;
 ```
+
+### Import `babel-polyfill` on your `index.js`
+```jsx
+import 'babel-polyfill';
+```
+
+### Run \o/
 
 ## [Example](https://github.com/jgcmarins/react-app-loader/tree/master/example/my-awesome-app)
 

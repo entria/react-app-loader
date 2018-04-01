@@ -1,6 +1,8 @@
 .DS_Store
 npm-debug.log
 node_modules
+yarn-error.log
+rollup.config.js
 .idea
 readme-private.md
 .flow

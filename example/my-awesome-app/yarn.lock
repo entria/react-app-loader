@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@entria/react-app-loader@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@entria/react-app-loader/-/react-app-loader-0.1.0.tgz#63b2bbfc10c893bc7d003612cf5952bacb8a18e9"
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -5569,7 +5573,7 @@ react-dev-utils@^5.0.0:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@16.3.0:
+react-dom@^16.3.0:
   version "16.3.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.3.0.tgz#b318e52184188ecb5c3e81117420cca40618643e"
   dependencies:
@@ -5626,7 +5630,7 @@ react-scripts@1.1.1:
   optionalDependencies:
     fsevents "^1.1.3"
 
-react@16.3.0:
+react@^16.3.0:
   version "16.3.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.3.0.tgz#fc5a01c68f91e9b38e92cf83f7b795ebdca8ddff"
   dependencies:
