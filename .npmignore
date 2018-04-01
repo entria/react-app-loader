@@ -1,0 +1,15 @@
+.DS_Store
+npm-debug.log
+node_modules
+.idea
+readme-private.md
+.flow
+.flowconfig
+.babelrc
+.eslintignore
+.eslintrc
+.prettierignore
+.gitignore
+LINCESE.md
+src
+example
