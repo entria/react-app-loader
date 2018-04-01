@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "flow",
+    "react",
+    "stage-0",
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-react-jsx-source"
+  ]
+}

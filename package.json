@@ -1,0 +1,60 @@
+{
+  "name": "@entria/react-app-loader",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "author": "<hello@entria.com.br>",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "babel-polyfill": ">=6.26.0",
+    "react": ">=16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.16.0",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.6.1",
+    "flow-bin": "^0.69.0",
+    "lint-staged": "^6.1.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.10.2",
+    "react-dom": "^16.2.0",
+    "rollup": "^0.55.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-uglify": "^3.0.0",
+    "uglify-js": "^3.3.9",
+    "uglifyjs-folder": "^1.5.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn prettier",
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "pre-commit": "lint:staged",
+  "scripts": {
+    "lint": "eslint --ext js src",
+    "build": "rollup -c",
+    "lint:staged": "lint-staged",
+    "prettier": "prettier --write --single-quote true --trailing-comma all --print-width 120",
+    "install-peers": "npm-install-peers",
+    "release:patch": "npm version patch && git push --follow-tags && npm publish --access public",
+    "release:minor": "npm version minor && git push --follow-tags && npm publish --access public",
+    "release:major": "npm version major && git push --follow-tags && npm publish --access public"
+  }
+}
