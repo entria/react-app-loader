@@ -81,5 +81,8 @@ import 'babel-polyfill';
 
 ### Run \o/
 
+## Handling cors during development
+On Google Chrome, just install this extension: https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
+
 ## License
 [MIT](https://github.com/entria/react-app-loader/blob/master/LICENSE.md)
