@@ -1,7 +1,4 @@
-# react-app-loader
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/@entria/react-app-loader)
-[![npm](https://img.shields.io/npm/dm/react-app-loader.svg)](https://www.npmjs.com/package/@entria/react-app-loader)
-[![github](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/entria/react-app-loader/issues)
+# react-app-loader [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/@entria/react-app-loader) [![npm](https://img.shields.io/npm/dm/react-app-loader.svg)](https://www.npmjs.com/package/@entria/react-app-loader) [![github](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/entria/react-app-loader/issues)
 Production ready library for handling Microfrontends, written in React.
 
 ## [Demo](https://entria.github.io/react-app-loader/)
