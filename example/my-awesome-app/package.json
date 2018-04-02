@@ -6,12 +6,31 @@
     "@entria/react-app-loader": "^0.1.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "styled-components": "^3.2.5"
   },
+  "lint-staged": {
+    "*.js": [
+      "yarn prettier",
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "pre-commit": "lint:staged",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "eslint --ext js src",
+    "lint:css": "stylelint './src/**/*.js'",
+    "lint:staged": "lint-staged",
+    "prettier": "prettier --write --single-quote true --trailing-comma all --print-width 120",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "lint-staged": "^7.0.2",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.11.1"
   }
 }
