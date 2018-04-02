@@ -1,7 +1,8 @@
-# react-app-loader
+# react-app-loader [![github](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/entria/react-app-loader/issues)
 Production ready library for handling Microfrontends, written in React.
 
 ## [Demo](https://entria.github.io/react-app-loader/)
+![Preview](https://media.giphy.com/media/1nayvq5bkYeqiuVWds/giphy.gif)
 
 ## How to use
 
