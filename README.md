@@ -23,6 +23,33 @@ export default AppLoader;
 
 ```
 
+#### Or you can try a more complex way, passing some `props`:
+```jsx
+// @flow
+
+import React from 'react';
+import withAppLoader from '@entria/react-app-loader';
+
+const elementId = 'github';
+const appUrl = 'https://github.com/';
+
+type Props = {
+  externalUrl: string,
+};
+
+const AnyExternalApp = (props: Props) => {
+  const { externalUrl } = props;
+  const AppLoader = withAppLoader({
+    elementId,
+    appUrl: externalUrl != null && externalUrl.length > 0 ? externalUrl : appUrl
+  });
+  return <AppLoader />;
+};
+
+export default AnyExternalApp;
+
+```
+
 ### Import it on your React app:
 ```jsx
 import React, { Component } from 'react';
@@ -55,6 +82,7 @@ import 'babel-polyfill';
 
 ## TODO
 - [ ] Add a working example with [React Router](https://github.com/ReactTraining/react-router)
+- [ ] Add an example with Loading Component
 - [ ] Add an example with shared authentication layer
 - [ ] Add an example with shared style
 - [ ] Add an example with more complex `props` and `state`

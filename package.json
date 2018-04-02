@@ -4,6 +4,16 @@
   "main": "lib/index.js",
   "author": "<hello@entria.com.br>",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "react-dom",
+    "app",
+    "loader",
+    "microfrontends",
+    "apploader",
+    "higher order component",
+    "hoc"
+  ],
   "dependencies": {},
   "peerDependencies": {
     "babel-polyfill": ">=6.26.0",
