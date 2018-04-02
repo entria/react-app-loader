@@ -1,7 +1,7 @@
 # react-app-loader [![github](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/entria/react-app-loader/issues)
 Production ready library for handling Microfrontends.
 
-## [Demo](https://entria.github.io/react-app-loader/)
+## [Demo](https://entria.github.io/react-app-loader/) and [Example](https://github.com/jgcmarins/react-app-loader/tree/master/example/my-awesome-app)
 ![Preview](https://media.giphy.com/media/1nayvq5bkYeqiuVWds/giphy.gif)
 
 ## How to use
@@ -81,14 +81,5 @@ import 'babel-polyfill';
 
 ### Run \o/
 
-## [Example](https://github.com/jgcmarins/react-app-loader/tree/master/example/my-awesome-app)
-
-## TODO
-- [ ] Add a working example with [React Router](https://github.com/ReactTraining/react-router)
-- [ ] Add an example with Loading Component
-- [ ] Add an example with shared authentication layer
-- [ ] Add an example with shared style
-- [ ] Add an example with more complex `props` and `state`
-- [ ] More informaton about development setup (handling cors, etc)
-- [ ] Relay?
-- [ ] Redux?
+## License
+[MIT](https://github.com/entria/react-app-loader/blob/master/LICENSE.md)
