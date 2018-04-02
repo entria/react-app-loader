@@ -1,6 +1,8 @@
 # react-app-loader
 Production ready library for handling Microfrontends, written in React.
 
+## [Demo](https://entria.github.io/react-app-loader/)
+
 ## How to use
 
 ### Create a config file for each external app:

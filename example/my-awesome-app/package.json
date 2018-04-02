@@ -4,11 +4,13 @@
   "private": true,
   "dependencies": {
     "@entria/react-app-loader": "^0.1.0",
+    "gh-pages": "^1.1.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-scripts": "1.1.1",
     "styled-components": "^3.2.5"
   },
+  "homepage": "https://entria.github.io/react-app-loader/",
   "lint-staged": {
     "*.js": [
       "yarn prettier",
@@ -20,6 +22,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint --ext js src",
     "lint:css": "stylelint './src/**/*.js'",
     "lint:staged": "lint-staged",
